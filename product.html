@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Clothing<span>Store</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Product Details Section -->
+    <section class="product-details">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="product.jpg" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <h1>Casual T-Shirt</h1>
+                <p class="price">$20</p>
+                <p class="description">This casual t-shirt is made from 100% cotton for ultimate comfort. Perfect for everyday wear.</p>
+                <div class="quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products Section -->
+    <section class="related-products">
+        <h2>Related Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product.jpg" alt="Related Product 1">
+                <h3>Summer Dress</h3>
+                <p>$35</p>
+                <button class="view-details">View Details</button>
+            </div>
+            <div class="product">
+                <img src="product.jpg" alt="Related Product 2">
+                <h3>Denim Jacket</h3>
+                <p>$50</p>
+                <button class="view-details">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy;YOUR FASHION IS OUR PASSION.</p>
+    </footer>
+</body>
+</html>

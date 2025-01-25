@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="e-w.css">
+    <script defer src="e-w.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Clothing<span>Store</span></div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Slider -->
+    <section id="home" class="hero-slider">
+        <div class="slider">
+            <div class="slide active">
+                <img src="slider1.jpg" alt="Slide 1">
+                <div class="slide-content">
+                </div>
+            </div>
+            <div class="slide">
+                <img src="slider2.jpg" alt="Slide 2">
+                <div class="slide-content">
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product.jpg" alt="Product 1">
+                <h3>Casual T-Shirt</h3>
+                <p>$20</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product.jpg" alt="Product 2">
+                <h3>Summer Dress</h3>
+                <p>$35</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product.jpg" alt="Product 3">
+                <h3>Denim Jacket</h3>
+                <p>$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest trends and offers</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; YOUR FASHION IS OUR PASSION.</p>
+    </footer>
+</body>
+</html>
